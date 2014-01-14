@@ -1,0 +1,21 @@
+{
+  "name": "data_bag_item_postgres_user",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "postgres",
+  "raw_data": {
+    "id": "user",
+    "name": {
+      "encrypted_data": "TWv8l08Gx7pnqC62RClVslrT3ewigjiOgn43LZ9HPU4=\n",
+      "iv": "FqqbHGb1UnCy43a8lF86/w==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    },
+    "password": {
+      "encrypted_data": "7km0/V/0u4ifdiHnEW/AbWkIIwFuj7LQ64zBq5fK9VjEMei0OotlpM8YeBNt\nSSRFnynzoLmm/CfhwfBMxh5VmFPU4mUX1IbKudP+5CYF/lk=\n",
+      "iv": "YUf6orQ6RPAtkGXBgdbXrw==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    }
+  }
+}

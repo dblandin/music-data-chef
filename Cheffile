@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'build-essential'
+cookbook 'ruby_build'
+cookbook 'nodejs'
+cookbook 'nginx'
+cookbook 'postgresql'
+cookbook 'redisio'
+cookbook 'database'
+cookbook 'vim'

@@ -1,0 +1,27 @@
+{
+  "name": "data_bag_item_users_deploy",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "users",
+  "raw_data": {
+    "id": "deploy",
+    "name": {
+      "encrypted_data": "hWro3ERATvGF3NjfToPqwelfOIXNxCFRKuBJFuVIaQQ=\n",
+      "iv": "4blkv7fXZD99mxNl80Z3CA==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    },
+    "password": {
+      "encrypted_data": "Sd+7YowQpzXF56cORE8HEbLDHj/GYxQbTeKvD2gSzeA=\n",
+      "iv": "EpVzWx1a7bbOOH/jxpg4Gw==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    },
+    "ssh-key": {
+      "encrypted_data": "uenPZYIEVaXzLtVYI2eUpXb+LKCe0w1LnVKIfYhN7cn+Ei2RQb5AKeLhjomr\nHQ3EkUols0rEYOysNX0KtREYsJH4ASrA9KP9ESJYUwNmuAZVK9QOQ6EKd0QA\n6RVBK9kVWjZFBx1q6UG3JqxU4o8Z1e9OqhDAXldOqbVnUoc/XNAwsl4z22Hp\nJzKjBRN7pQijFeHy5Y1kWmK8GceoYCGRkwhWI9gAbTEES8sUordR6bJiSFnU\n+oPDbLj3t8InokzulWJuSN4neMXpsUskWjuDreczrULJeg3EIWIBx87PhtaQ\nBEccXDYBxIQq2vWpXxCT7f8YYg8EgJUHASrs1Thh+69ts1cC9Mk4ld6wAo96\noTc9lQ0/6n88wjDYCCx5UxyB5+sWmBeBUSQGNrs1fI+1W0rOXvcrzDKxcwOR\nrHKio+xojOo4iHGW8zkEOQmf+aH8LS42oPM+CjABHx7kJHjjgAQgWnt3yaOb\nISrMl3VWWnnPswRGsYIwOt0tnbAFePBU7brm7f8LHPrHjeJ0lo1gZw8N3r12\nLOw4Dfs14TMqpPJtGiRAcv1UPSyWzsnIwS1k\n",
+      "iv": "oLK7DJ86ofONCyBMmdHVng==\n",
+      "version": 1,
+      "cipher": "aes-256-cbc"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/cookbooks
+/tmp
+/vendor/ruby
+.vagrant
+.bundle
+/cookbooks/
+/tmp/librarian/
