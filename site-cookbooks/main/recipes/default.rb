@@ -20,6 +20,6 @@ end
 file authorized_keys_file do
   owner deploy['name']
   mode  0600
-  content "#{deploy['ssh_key']} #{deploy['name']}"
+  content deploy['ssh-key']
   not_if { ::File.exists?("#{authorized_keys_file}")}
 end

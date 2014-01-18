@@ -9,7 +9,7 @@
     },
     "postgresql": {
       "password": {
-        "postgres": "md50b4c3659bc426511470ba5fea03878b1"
+        "postgres": "md587ac8f2b626a5c5d2bd3daa0366d377a"
       },
       "enable_pgdg_apt": true,
       "version":         "9.3",
@@ -24,7 +24,7 @@
         "max_connections": "300"
       },
       "pg_hba": [
-        { "type": "host", "db": "all", "user": "all", "addr": "0.0.0.0/0", "method": "md5" }
+        { "type": "host", "db": "all", "user": "all", "addr": "0.0.0.0/0", "method": "password" }
       ]
     }
   },
