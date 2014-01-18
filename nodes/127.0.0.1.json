@@ -1,5 +1,7 @@
 {
   "run_list": [
-    "role[web]"
+    "role[database]",
+    "role[web]",
+    "recipe[main]"
   ]
 }
