@@ -5,3 +5,4 @@
 .bundle
 /cookbooks/
 /tmp/librarian/
+encrypted_data_bag_secret
