@@ -4,7 +4,7 @@ authorized_keys_file = "#{home_dir}/.ssh/authorized_keys"
 
 user deploy['name'] do
   password deploy['password']
-  gid 'admin'
+  gid 'sudo'
   home "/home/#{deploy['name']}"
   shell '/bin/bash'
   supports manage_home: true
@@ -12,7 +12,7 @@ end
 
 directory "#{home_dir}/.ssh" do
   owner deploy['name']
-  group 'admin'
+  group 'sudo'
   mode '755'
   recursive true
 end

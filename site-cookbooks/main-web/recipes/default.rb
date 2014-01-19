@@ -2,22 +2,22 @@ deploy = Chef::EncryptedDataBagItem.load('users', 'deploy')
 
 directory '/var/run' do
   owner 'www-data'
-  group 'admin'
-  mode '755'
+  group 'sudo'
+  mode '0755'
   recursive true
 end
 
 directory "/var/www/#{node[:app][:name]}" do
   owner deploy['name']
-  group 'admin'
-  mode '755'
+  group 'sudo'
+  mode '0755'
   recursive true
 end
 
 directory "/tmp/#{node[:app][:name]}" do
   owner deploy['name']
-  group 'admin'
-  mode '755'
+  group 'sudo'
+  mode '0755'
   recursive true
 end
 
