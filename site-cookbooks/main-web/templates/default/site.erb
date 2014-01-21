@@ -1,5 +1,5 @@
 upstream unicorn {
-  server unix:/var/www/music-data/current/tmp/sockets/unicorn.sock fail_timeout=0;
+  server unix:/var/www/<%= node[:app][:name] %>/current/tmp/sockets/unicorn.sock fail_timeout=0;
 }
 
 server {
@@ -17,7 +17,7 @@ server {
   listen      80;
   server_name localhost;
 
-  root /var/www/music-data/current/public;
+  root /var/www/<%= node[:app][:name] %>/current/public;
 
   try_files $uri @app;
 
@@ -49,6 +49,6 @@ server {
   error_page 500 502 503 504 /500.html;
 
   location = /500.html {
-    root /var/www/music-data/current/public;
+    root /var/www/<%= node[:app][:name] %>/current/public;
   }
 }
